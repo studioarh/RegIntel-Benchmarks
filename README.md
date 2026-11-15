@@ -85,5 +85,5 @@ pytest tests/
 
 ## License & Copyright
 
-Copyright (c) 2026 Abdulrahman (`studioarh`). All Rights Reserved.
+Copyright (c) 2026 Abdul Rehman (`studioarh`). All Rights Reserved.
 Published as Source-Available for technical architecture review, benchmark verification, and academic/engineering evaluation. Commercial redistribution or unauthorized SaaS hosting is prohibited.
