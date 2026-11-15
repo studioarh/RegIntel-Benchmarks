@@ -1,0 +1,815 @@
+{
+  "run_type": "baseline_optimized",
+  "total_samples": 100,
+  "metrics": {
+    "retrieval_recall_at_5": 0.5214,
+    "citation_correctness": 0.1376,
+    "unsupported_claim_total": 120,
+    "escalation_precision": 0.9375,
+    "escalation_recall": 1.0,
+    "p50_latency_seconds": 26.329,
+    "p95_latency_seconds": 69.214
+  },
+  "tasks": [
+    {
+      "task_num": 1,
+      "id": "0b169f10-b19e-43ee-a522-802afc601166",
+      "query": "What core activities does the FCA list under 'What we do'?",
+      "latency": 8.767,
+      "escalated": false,
+      "unsupported_claims": 4
+    },
+    {
+      "task_num": 2,
+      "id": "3039e9e0-b10f-4327-b887-14b29006e3bb",
+      "query": "What information is provided in the annual Regulatory Priorities reports?",
+      "latency": 26.329,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 3,
+      "id": "7ce7ad3e-eafb-41fa-9cf6-cbaca786925e",
+      "query": "What proposed changes to the CONC 3 financial promotions rules are being consulted on in CP26/15, and what is the deadline for providing feedback?",
+      "latency": 10.256,
+      "escalated": false,
+      "unsupported_claims": 3
+    },
+    {
+      "task_num": 4,
+      "id": "08250964-d676-4260-8500-bce29fbc1a07",
+      "query": "What are the three key areas in the financial promotion rules regarding cost disclosure that the FCA is seeking views on?",
+      "latency": 7.076,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 5,
+      "id": "b96d0ce6-d357-42f1-aa1d-84716838880e",
+      "query": "What core activities does the FCA list under 'What we do'?",
+      "latency": 7.275,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 6,
+      "id": "e00d7957-ea63-47e5-b6bf-a75f6f1302cf",
+      "query": "What exact warning must be included in a financial promotion for a credit agreement under which no instalment repayments or interest payments are due while the customer continues to occupy the mortgaged land as their main residence?",
+      "latency": 23.902,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 7,
+      "id": "20156f19-8b0b-42ff-86c5-4b7c9cffca44",
+      "query": "What information is provided in the annual Regulatory Priorities reports?",
+      "latency": 55.901,
+      "escalated": false,
+      "unsupported_claims": 3
+    },
+    {
+      "task_num": 8,
+      "id": "60c38a68-22bf-4f7e-9ef0-6e453b143268",
+      "query": "What modifications is the FCA proposing to CONC 3 under CP26/15, and what standard does it intend to rely on instead?",
+      "latency": 8.813,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 9,
+      "id": "157a7989-a97a-460f-b6b3-44522d672e16",
+      "query": "What are the three key areas in the financial promotion rules regarding cost disclosure that the FCA is seeking views on?",
+      "latency": 8.659,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 10,
+      "id": "06861209-9bf5-4963-820a-634106da8bdc",
+      "query": "Which sections of the FCA Consumer Credit sourcebook (CONC) contain the provisions regarding risk warnings for high-cost short-term credit and pre-contract disclosure for continuous payment authorities?",
+      "latency": 8.291,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 11,
+      "id": "0ac19e3c-af3c-49ae-aae2-5859b2d8b2a1",
+      "query": "According to the CONC 5C provisions on overdraft pricing, what rule governs the interest rates charged for unarranged overdrafts compared to arranged overdrafts?",
+      "latency": 10.454,
+      "escalated": false,
+      "unsupported_claims": 5
+    },
+    {
+      "task_num": 12,
+      "id": "b218dbad-fecc-4916-82c1-1ece845b8ad0",
+      "query": "According to CONC 1.1.2, what is the regulatory purpose of the Consumer Credit sourcebook (CONC)?",
+      "latency": 8.503,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 13,
+      "id": "3076db6e-2b52-4c49-af1c-c88a8efbc5a8",
+      "query": "Does the Consumer Credit sourcebook (CONC) apply directly to appointed representatives, and what is a firm's liability for their conduct?",
+      "latency": 8.999,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 14,
+      "id": "f5f5c7f4-4e3a-426f-89ae-37de4d354a12",
+      "query": "Under CONC 1.2.8R, what additional provisions of CONC apply specifically to an MCD article 3(1)(b) creditor beyond those that apply to both an MCD article 3(1)(b) creditor and credit intermediary?",
+      "latency": 34.585,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 15,
+      "id": "6bfb9947-8357-443f-bb60-58444dd4acef",
+      "query": "Under CONC 1.2.10R, what conditions must be satisfied for CONC 1.2.8R and its applied rules to be disapplied to an MCD article 3(1)(b) creditor or credit intermediary?",
+      "latency": 9.94,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 16,
+      "id": "a795f3bf-e334-4d59-b1ec-38e94597c360",
+      "query": "Under CONC 1.2.12R, under what circumstances does CONC not apply to a P2P platform operator?",
+      "latency": 15.696,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 17,
+      "id": "009d4ba3-3812-4e0d-b070-c9d227c32599",
+      "query": "Under FCA rules in CONC 2.2.6R, under what condition may a firm enter into an agreement with a customer where a charge is or may become payable for an optional additional product?",
+      "latency": 8.102,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 18,
+      "id": "d6a7431e-0616-4366-8000-10870a71139b",
+      "query": "Under CONC rules, under what condition is the automatic renewal of an agreement for an optional additional product not considered to be on substantially the same terms?",
+      "latency": 30.629,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 19,
+      "id": "e3c67a13-d8d3-44b4-9aa4-88edfd413929",
+      "query": "What restrictions apply to a firm regarding the provision and quantity of credit card cheques provided to a customer under CONC 2.3.5?",
+      "latency": 14.225,
+      "escalated": false,
+      "unsupported_claims": 4
+    },
+    {
+      "task_num": 20,
+      "id": "b5dfa5c8-df8c-461a-9cb8-cce8025919ae",
+      "query": "Under CONC 2.4.2 R, what details must a lender provide to a credit broker upon declining to enter into a regulated credit agreement, and by when must this notification occur?",
+      "latency": 6.36,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 21,
+      "id": "3eefd862-6805-4693-9b79-4738bd0ad480",
+      "query": "What are the disclosure requirements and timeframe under CONC 2.5.6 when a credit broker that is not a negotiator receives a written request from a customer following the termination of negotiations?",
+      "latency": 16.496,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 22,
+      "id": "37167900-719b-403b-9a75-3f1d645f36ba",
+      "query": "According to CONC 2.5.8, what rules must a credit broker adhere to regarding in-person visits to a customer?",
+      "latency": 14.466,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 23,
+      "id": "39517763-0147-41a3-b4b9-bd15bfcf9d0e",
+      "query": "What specific actions are prohibited when a firm offers an insurance product or other service linked to a credit or consumer hire agreement?",
+      "latency": 44.32,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 24,
+      "id": "e9e3c937-faa7-4528-b5fc-f7f62752c76e",
+      "query": "Under FCA guidance in CONC 2.5.9, what standards apply to telephone calls when a customer applies for credit or checks the status of an application?",
+      "latency": 9.233,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 25,
+      "id": "b6d80cbf-3fad-42a0-9fee-40f5ec85b62b",
+      "query": "According to CONC 2.5.10R, what specific criteria must an insurance contract satisfy to be classified as 'short-term income protection'?",
+      "latency": 26.527,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 26,
+      "id": "f91cfd59-3043-4758-a4d5-6efff40ff7bc",
+      "query": "Under what circumstances may a firm request a payment service provider to collect a sum less than the full sum due for high-cost short-term credit under a continuous payment authority?",
+      "latency": 9.019,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 27,
+      "id": "624c5980-6b52-4cb0-ac86-f05258757ea2",
+      "query": "Under CONC 2.5A, how must a price comparison website rank the results of a search for a high-cost-short-term credit product?",
+      "latency": 31.931,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 28,
+      "id": "d0e83c0a-dff9-486f-b1a9-ff0a71ac71e9",
+      "query": "Under CONC 2.5A, what restrictions apply to an HCSTC price comparison website regarding displaying financial promotions in and around search results?",
+      "latency": 30.44,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 29,
+      "id": "e6f8be0f-e033-41df-a981-ca5c7cc241d2",
+      "query": "Under CONC 2.7.1, to which firms and activities does the distance marketing section apply, and what specific activities or agreements are excluded?",
+      "latency": 20.889,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 30,
+      "id": "2765ae70-d3d9-41b0-9896-460ae65bf33e",
+      "query": "Under CONC 2.7.4, what disclosures must a firm provide to a consumer when making a voice telephony communication?",
+      "latency": 6.449,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 31,
+      "id": "53bf4aa0-499e-4364-919a-50537c168e53",
+      "query": "Under CONC 2.7.12, under what specific condition can a firm provide distance marketing information and contractual terms and conditions immediately after concluding a distance contract?",
+      "latency": 6.905,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 32,
+      "id": "84284768-49f9-4311-9bdd-04b7c3b6a306",
+      "query": "Under CONC 2.7, what rules apply to a firm regarding the enforcement of obligations following an unsolicited supply of services and the handling of consumer rights waivers?",
+      "latency": 26.064,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 33,
+      "id": "ff49ed65-af0b-41dd-92ec-a18aae958cd4",
+      "query": "Under CONC 2.9.2, in what circumstances is a firm permitted to give a person a credit token without that person having requested it?",
+      "latency": 11.863,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 34,
+      "id": "18c6be97-18e9-4047-a2b1-5f9106babb4f",
+      "query": "Under CONC 2.10, what initial assumption must a firm make regarding a customer's mental capacity when making a credit decision, and when does this assumption cease to apply?",
+      "latency": 6.191,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 35,
+      "id": "22ed2a13-70da-4449-8469-c0f27ef12279",
+      "query": "Under CONC 2.10, in what circumstances is it not considered inappropriate for a firm to decline granting credit, decline significantly increasing credit, or decline setting a credit limit for running account credit to a customer with a suspected mental capacity limitation?",
+      "latency": 8.017,
+      "escalated": false,
+      "unsupported_claims": 1
+    },
+    {
+      "task_num": 36,
+      "id": "4b36c68d-7a76-45e6-a58b-c7ea8db072e5",
+      "query": "Under FCA rules for high-cost short-term credit, what is the maximum permitted limit on charges imposed for a borrower's breach when an earlier agreement is varied or supplemented?",
+      "latency": 7.931,
+      "escalated": false,
+      "unsupported_claims": 1
+    },
+    {
+      "task_num": 37,
+      "id": "69908638-d0aa-486a-957d-69360afef8f7",
+      "query": "What options should a firm consider allowing a customer regarding the timing of their decision if the firm understands or reasonably suspects the customer has or may have a mental capacity limitation?",
+      "latency": 9.33,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 38,
+      "id": "52e2e4a9-f6ac-459c-93d2-f84376f0efd4",
+      "query": "What specific actions must a firm take under CONC 2.11.4 to address the risk of failing to comply with regulatory system obligations arising from its remuneration or performance management policies?",
+      "latency": 9.873,
+      "escalated": false,
+      "unsupported_claims": 3
+    },
+    {
+      "task_num": 39,
+      "id": "26a060a9-0db9-4c50-a8b0-a26a7aaae697",
+      "query": "What steps must a firm take to manage conflicts of interest when an employee's activities are monitored by their direct manager?",
+      "latency": 6.895,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 40,
+      "id": "93b0150b-9748-4492-8b73-bbadfb709567",
+      "query": "What information regarding redress must a firm provide to a consumer under the CONC distance marketing information rules?",
+      "latency": 8.081,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 41,
+      "id": "3c23ec2e-616e-405b-a4b2-e9b16b9f9af4",
+      "query": "Under CONC 3, what are the full exemptions from the chapter, and how does the regulatory treatment differ for simple 'image advertising' communications?",
+      "latency": 13.524,
+      "escalated": false,
+      "unsupported_claims": 4
+    },
+    {
+      "task_num": 42,
+      "id": "557d749f-1c45-453b-b64c-65e192dc8fef",
+      "query": "Under CONC 3, what restrictions apply to firms making statements or implications about the availability of credit regardless of a customer's financial status, and what guidance and exceptions exist regarding these representations?",
+      "latency": 15.692,
+      "escalated": false,
+      "unsupported_claims": 4
+    },
+    {
+      "task_num": 43,
+      "id": "f0ce76ec-f90d-43d4-bf93-3d0696f3a072",
+      "query": "Under FCA CONC rules and guidance, what specific disclosure requirements apply to promotional communications regarding 'Buy Now Pay Later' (BNPL) offers, high-cost short-term credit, and promotions specifying the cost of credit?",
+      "latency": 17.224,
+      "escalated": false,
+      "unsupported_claims": 6
+    },
+    {
+      "task_num": 44,
+      "id": "15bd4067-aeb6-4bdc-aad0-4f5076209723",
+      "query": "Under FCA rules in CONC 3.5, what components must generally be included when presenting a representative example in a financial promotion, and what exemptions modify these contents or remove the representative example requirement entirely?",
+      "latency": 37.98,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 45,
+      "id": "03bf827f-a964-424a-978f-bf2628227350",
+      "query": "Under FCA CONC rules and guidance, how should a firm treat account fees when calculating the APR for an authorised non-business overdraft agreement, and what rules govern when a representative APR must be included or can be excluded in financial promotions for these overdrafts?",
+      "latency": 22.644,
+      "escalated": false,
+      "unsupported_claims": 5
+    },
+    {
+      "task_num": 46,
+      "id": "afac3522-e60f-418b-a340-631caea6d05c",
+      "query": "Under CONC 3.5, what specific rules, disclosures, and exemptions apply to financial promotions concerning overdraft agreements?",
+      "latency": 47.159,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 47,
+      "id": "f03d68f5-ab30-48c3-9a03-db01cf5ef683",
+      "query": "Under FCA CONC rules, how do the requirements for rent-to-own (RTO) agreements under CONC 5B and financial promotions for credit agreements secured on land under CONC 3.6 regulate transactions involving goods and enforce borrower terms?",
+      "latency": 35.906,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 48,
+      "id": "65576e03-8732-45d3-95b7-1e4e1bcaf8cb",
+      "query": "Under CONC 3.6, what warning and prominence requirements apply to a financial promotion for a loan secured on a dwelling that offers debt consolidation and includes an incentive regarding the speed of processing?",
+      "latency": 69.214,
+      "escalated": false,
+      "unsupported_claims": 6
+    },
+    {
+      "task_num": 49,
+      "id": "7657bb2f-e1ea-4622-8bcf-1bbbeb34f20f",
+      "query": "Under CONC 3.6, what restrictions apply to describing a running-account credit agreement as an 'overdraft', and what specific assumptions must be made regarding credit amount and repayment terms when calculating its APR for a financial promotion?",
+      "latency": 11.27,
+      "escalated": false,
+      "unsupported_claims": 3
+    },
+    {
+      "task_num": 50,
+      "id": "e8f86fc4-f562-4c98-a021-77c1ae723830",
+      "query": "What are the disclosure requirements under CONC regarding the total amount payable for fixed-sum credit promotions and the status/independence of credit brokers in their promotions?",
+      "latency": 18.038,
+      "escalated": false,
+      "unsupported_claims": 6
+    },
+    {
+      "task_num": 51,
+      "id": "bec57912-8516-4b77-b01f-381ededf3057",
+      "query": "What disclosure and identification standards apply to firms promoting credit broking or P2P lending services under CONC 3, and what rules govern payment allocation and fixed instalment plans for credit card debts under CONC 6?",
+      "latency": 29.558,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 52,
+      "id": "2ea31353-b690-42fd-98e2-351c37d0c6e8",
+      "query": "Under FCA CONC rules, what mandatory disclosures or explanations must a firm communicate to a customer when promoting a property-secured loan with repayments in a non-sterling currency, compared to offering an option to enter into a fixed instalment plan?",
+      "latency": 54.847,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 53,
+      "id": "ddf2ac44-48b9-45a2-a2ec-adb7369b1b45",
+      "query": "How do FCA rules in CONC 3.8 and CONC 3.9 regulate statements regarding property equity in communications and promotions made by lenders compared to debt counsellors or adjusters?",
+      "latency": 9.657,
+      "escalated": false,
+      "unsupported_claims": 2
+    },
+    {
+      "task_num": 54,
+      "id": "42238cb8-b3ce-41f7-ad27-d06b6c05ab35",
+      "query": "Under CONC 3.10 and the Consumer Credit Act (CCA), what procedural requirements and statutory restrictions apply to firms when communicating non-written financial promotions or discussing credit agreements off trade premises?",
+      "latency": 20.283,
+      "escalated": false,
+      "unsupported_claims": 8
+    },
+    {
+      "task_num": 55,
+      "id": "a0d44c0e-f4db-4ea3-b421-6a222ac56e23",
+      "query": "Under CONC 4.1, how do the quotation disclosure requirements for prospective credit agreements secured on a customer's home compare between lenders and credit brokers?",
+      "latency": 45.255,
+      "escalated": false,
+      "unsupported_claims": 4
+    },
+    {
+      "task_num": 56,
+      "id": "49dc96e6-f962-4dfd-b9d7-2af5dbb1f123",
+      "query": "How do FCA CONC rules address agreements secured on land or property with respect to quotation requirements under CONC 4.1 and pre-contractual explanation requirements under CONC 4.2?",
+      "latency": 139.123,
+      "escalated": false,
+      "unsupported_claims": 6
+    },
+    {
+      "task_num": 57,
+      "id": "7cba86f6-bd00-429a-8daa-0967d88afb7d",
+      "query": "Under FCA CONC rules, what governance requirements apply when a firm uses an individual agent to interact with customers, and what standards must be observed regarding customer explanations of default consequences and debt enforceability?",
+      "latency": 14.247,
+      "escalated": false,
+      "unsupported_claims": 3
+    },
+    {
+      "task_num": 58,
+      "id": "288e3d1b-1bae-427a-beb6-9af9329797b0",
+      "query": "Under CONC 15, what pre-contractual disclosure, advice, and understanding requirements must a firm satisfy before entering into a regulated credit agreement secured on land?",
+      "latency": 36.68,
+      "escalated": false,
+      "unsupported_claims": 8
+    },
+    {
+      "task_num": 59,
+      "id": "2f9df87f-74ea-47ee-bfda-796038864fa3",
+      "query": "Under FCA CONC rules, how do requirements concerning rates and product terms differ between marketing financial promotions and delivering pre-contractual adequate explanations to customers?",
+      "latency": 82.232,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 60,
+      "id": "43a9e94b-0cc7-4baf-a6c2-20bfc1fd294d",
+      "query": "Under CONC 4.2, what specific information must be included in the adequate explanation for a home credit loan agreement that refinances an existing loan with an increased principal, and what guidance is provided on how this comparison should be presented to the customer?",
+      "latency": 8.805,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 61,
+      "id": "02e9eb32-62f0-4cd9-983c-27fab70f6191",
+      "query": "Under CONC 4.2 and CONC 4.2A, what are a firm's pre-contract disclosure and explanation duties when third parties or multiple borrowers are involved, such as a guarantor or joint borrowers under a regulated deferred payment credit agreement?",
+      "latency": 16.384,
+      "escalated": false,
+      "unsupported_claims": 4
+    },
+    {
+      "task_num": 62,
+      "id": "06f59d85-3bb7-47ad-a411-d8547dfeff53",
+      "query": "Under CONC 4.2A, what pre-contractual disclosure obligations apply when an agreement involves a guarantor, and what requirements govern the selection and communication of product information provided to them?",
+      "latency": 14.31,
+      "escalated": false,
+      "unsupported_claims": 6
+    },
+    {
+      "task_num": 63,
+      "id": "7ea2b6a9-4902-4d56-9c25-785c3e841089",
+      "query": "Under CONC 4.3, what pre-contractual explanation and warning requirements must a firm provide to a borrower when a P2P agreement involves or is secured on the borrower's home?",
+      "latency": 14.246,
+      "escalated": false,
+      "unsupported_claims": 3
+    },
+    {
+      "task_num": 64,
+      "id": "056af246-ec04-4e0b-b725-ac60895ad92f",
+      "query": "Under CONC 4.4, what conditions must a credit broker satisfy before requesting or taking payment card details from a customer, what content is strictly permitted in the required information notice, and under what circumstances is a broker exempt from these notice requirements?",
+      "latency": 37.322,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 65,
+      "id": "d592d236-0506-415f-83c6-5d451d2a52df",
+      "query": "Under FCA rules in CONC 4.5, what are a credit broker's obligations regarding the disclosure of commissions to customers, and what restrictions govern how those commissions are structured with lenders?",
+      "latency": 17.531,
+      "escalated": false,
+      "unsupported_claims": 5
+    },
+    {
+      "task_num": 66,
+      "id": "f792d97f-9006-4659-922f-7b3d3533fde3",
+      "query": "Under CONC 4.6, what requirements must a firm satisfy regarding the pre-contract explanations and document terms of a continuous payment authority (CPA) for borrowers, deferred payment credit agreements, and guarantors?",
+      "latency": 14.351,
+      "escalated": false,
+      "unsupported_claims": 3
+    },
+    {
+      "task_num": 67,
+      "id": "b7c788a2-9403-4027-82b6-d9bee7bcdb50",
+      "query": "Under CONC, what obligations apply regarding offering higher credit amounts to customers, and how does the creditworthiness assessment requirement in CONC 5.2A apply to overrunning on current accounts?",
+      "latency": 11.78,
+      "escalated": false,
+      "unsupported_claims": 3
+    },
+    {
+      "task_num": 68,
+      "id": "ea3d5e57-7e54-43ec-8951-b965816de375",
+      "query": "Under FCA CONC 5.2A, how does a customer's intention to repay using savings or assets affect the obligation to determine customer income, what must the firm evaluate regarding those assets, and what forms of credit support cannot be taken into account when assessing affordability risk?",
+      "latency": 12.085,
+      "escalated": false,
+      "unsupported_claims": 3
+    },
+    {
+      "task_num": 69,
+      "id": "b26263b1-1748-4412-adc2-75a0dfdc9512",
+      "query": "Under CONC 5.2A, how does the principle of proportionality govern a firm's assessment of a customer's non-discretionary expenditure, and what limitations apply when estimating this expenditure using statistical data?",
+      "latency": 24.26,
+      "escalated": false,
+      "unsupported_claims": 4
+    },
+    {
+      "task_num": 70,
+      "id": "5369ec24-959c-43b1-a7c3-6163fd834d8c",
+      "query": "Under FCA CONC rules, what assumptions and factors must a firm consider regarding credit duration, drawdown, and repayment when carrying out a creditworthiness assessment for an open-end running-account credit agreement?",
+      "latency": 36.359,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 71,
+      "id": "6eb99596-5f13-4d83-a431-bf07fd6c8866",
+      "query": "What are the specific capital adequacy requirements for UK spaceport insurance brokers under PRA rules?",
+      "latency": 52.96,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 72,
+      "id": "553a4e74-d354-46a0-895e-bb7a79112cbb",
+      "query": "What is the maximum statutory payout for peer-to-peer art lending defaults under CONC 14?",
+      "latency": 70.651,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 73,
+      "id": "5d8dd147-5c38-43e5-87e7-e399f0b8c477",
+      "query": "How should firms calculate liquid assets for Scottish forestry syndicates under FCA guidance?",
+      "latency": 46.875,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 74,
+      "id": "c39aefef-7642-4ceb-97d2-da53394b7fe5",
+      "query": "What are the reporting deadlines for Gibraltar-based captive reinsurers writing UK consumer credit?",
+      "latency": 50.64,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 75,
+      "id": "8f9f394a-21fe-4607-90e8-0189e1738273",
+      "query": "What are the exact interest rate cap formulas for post-secondary educational equipment leases?",
+      "latency": 48.399,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 76,
+      "id": "06d59749-51a8-46d8-8bab-995ba7bdd40a",
+      "query": "Which exemptions apply to algorithmic trading of agricultural emissions allowances under MiFID II UK?",
+      "latency": 46.984,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 77,
+      "id": "16e262e9-001b-41b6-80d6-f6b4942a3f1e",
+      "query": "What are the audit committee requirements for local credit unions with fewer than 50 members?",
+      "latency": 67.363,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 78,
+      "id": "5236bfea-d1a1-4bff-a3d3-3759fe4050a9",
+      "query": "What is the approved procedure for winding down a UK digital tokenized real estate SPV?",
+      "latency": 49.565,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 79,
+      "id": "90c83689-af00-4dd9-aa48-8f7aa0fa7290",
+      "query": "How are overseas sovereign wealth funds taxed under consumer debt restructuring directives?",
+      "latency": 46.786,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 80,
+      "id": "8915a484-a7b4-4eaa-8b93-1b7757ac4635",
+      "query": "What are the specific reserve requirements for UK Islamic pawn-broking arrangements?",
+      "latency": 77.182,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 81,
+      "id": "745b469b-06f6-42e0-bb32-305fa0bdbf49",
+      "query": "What is the statutory cooling-off period for commercial aircraft wet leases under FCA handbook rules?",
+      "latency": 74.155,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 82,
+      "id": "da462b9d-e552-4d59-a74e-007092067eb4",
+      "query": "Which reporting templates are mandated for micro-entity peer-to-peer solar panel lending platforms?",
+      "latency": 49.882,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 83,
+      "id": "eebb2f40-f690-4095-a901-a54d19a222a6",
+      "query": "What are the prudential limits on non-EEA reinsurance retrocession for consumer warranties?",
+      "latency": 62.125,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 84,
+      "id": "8d4c55e1-285f-4c99-9faf-5ea792eed641",
+      "query": "How do insolvency practitioners calculate preferential claims for consumer hire-purchase agreements under 2026 rules?",
+      "latency": 49.303,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 85,
+      "id": "921dce7c-e2c5-4de8-8ade-e1a2b4463022",
+      "query": "What are the mandatory AML verification steps for offshore precious-metal-backed credit cards?",
+      "latency": 46.872,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 86,
+      "id": "a70fa2cb-2045-410e-8bf0-4b6bda94f3e0",
+      "query": "Can you write a Python function to compute Fibonacci numbers using recursion?",
+      "latency": 43.389,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 87,
+      "id": "2f12f0dd-13b5-4c9d-a16c-ff064ba18837",
+      "query": "How do I prepare a classic French beef bourguignon?",
+      "latency": 49.134,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 88,
+      "id": "3c6a3b11-abaf-4464-a6a2-02f81f5ea596",
+      "query": "What are the standard symptoms and medical treatments for acute appendicitis?",
+      "latency": 49.178,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 89,
+      "id": "01dc1936-63a9-44f2-be6e-cecdeb9c0855",
+      "query": "Who won the UEFA Champions League final in 2024?",
+      "latency": 47.199,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 90,
+      "id": "673641c3-7485-46d9-99b0-81b489eeeccb",
+      "query": "How do I calculate personal income tax deductions on IRS Form 1040 in California?",
+      "latency": 43.781,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 91,
+      "id": "5bfb1b6c-8b73-4273-860f-f24fee133815",
+      "query": "Can you help debug my React useEffect hook dependency cycle?",
+      "latency": 45.362,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 92,
+      "id": "c8253276-15e9-4fbb-a65a-4caa4138a8f1",
+      "query": "What is the optimal tire pressure for a mountain bike on wet gravel?",
+      "latency": 46.994,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 93,
+      "id": "44564af5-4990-47eb-8b7d-d83ad4872c82",
+      "query": "Write a creative short story about an astronaut marooned on Mars.",
+      "latency": 45.976,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 94,
+      "id": "58a18df4-fcd0-4910-9053-a8982bdf3d0e",
+      "query": "How do I configure an Nginx reverse proxy with SSL termination on Ubuntu 24.04?",
+      "latency": 46.378,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 95,
+      "id": "16641292-386b-40b5-b9bf-a4ff53b7e63f",
+      "query": "What are the best tourist attractions to visit in Kyoto during autumn?",
+      "latency": 50.582,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 96,
+      "id": "9426e8c4-81ae-4e87-8b4e-ea99ada0337c",
+      "query": "What is the recommended dosage of ibuprofen for adult dental pain?",
+      "latency": 46.474,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 97,
+      "id": "a729957a-3cb4-4d08-b34e-0d37f5cf8d79",
+      "query": "How does quantum error correction work using surface codes?",
+      "latency": 46.362,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 98,
+      "id": "9fef591e-6f50-4526-ace3-08f40ec31672",
+      "query": "Give me a five-day strength training split for beginner powerlifting.",
+      "latency": 46.204,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 99,
+      "id": "ffd2176e-f15f-4efc-95af-534a208ee3e3",
+      "query": "How do I change the oil and filter on a 2018 Volkswagen Golf?",
+      "latency": 50.888,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 100,
+      "id": "01dae7fa-4c4b-410e-8a54-693ce49679f6",
+      "query": "What were the primary socio-economic causes of the French Revolution in 1789?",
+      "latency": 46.891,
+      "escalated": true,
+      "unsupported_claims": 0
+    }
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "run_type": "baseline_optimized_v2",
+  "total_samples": 100,
+  "metrics": {
+    "retrieval_recall_at_5": 0.6286,
+    "citation_correctness": 1.0,
+    "unsupported_claim_total": 0,
+    "escalation_precision": 0.6818,
+    "escalation_recall": 1.0,
+    "p50_latency_seconds": 20.532,
+    "p95_latency_seconds": 75.872
+  },
+  "tasks": [
+    {
+      "task_num": 1,
+      "id": "a87afd96-dc9a-404d-a50b-1e21f6292760",
+      "query": "Which previous consultation paper does Policy Statement PS24/2 provide feedback on, and what is the paper's primary focus?",
+      "latency": 7.453,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 2,
+      "id": "4156405f-a17d-4681-918a-6bfa888dcf5f",
+      "query": "What key proposals and customer groups were covered in the May 2023 consultation (CP23/13) regarding financial difficulty?",
+      "latency": 7.007,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 3,
+      "id": "61186097-476a-47b0-b014-c84622d139b6",
+      "query": "What were the FCA's findings in the November 2022 Borrowers in Financial Difficulty (BiFD) report?",
+      "latency": 10.872,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 4,
+      "id": "feb2ae4c-8ec3-41a7-acaa-be52433b82ef",
+      "query": "How do the rules and guidance regarding payment difficulties advance the consumer protection objective?",
+      "latency": 7.561,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 5,
+      "id": "d52ff150-1278-4489-a627-2baf22e928a9",
+      "query": "What targeted additional changes were proposed for mortgage firms regarding customers in payment shortfall?",
+      "latency": 13.384,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 6,
+      "id": "45136cbf-b502-4cda-b3b9-4e85096c1617",
+      "query": "What specific amendments are being finalised for mortgage firms regarding statements under MCOB 13.5 and forbearance options?",
+      "latency": 67.471,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 7,
+      "id": "1f8045fe-8b95-437c-95c9-873225f4220c",
+      "query": "What specific approach is being taken regarding the proposed guidance on charges under CONC 7.7.6G for credit firms?",
+      "latency": 9.543,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 8,
+      "id": "b9203b30-bbaf-4609-9ba1-063694f37c83",
+      "query": "What number is specified in the excerpt of the regulation?",
+      "latency": 49.574,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 9,
+      "id": "513546f0-590b-483e-89be-1eef86243649",
+      "query": "How long is the implementation period granted to firms for the final rules, and why was this duration chosen?",
+      "latency": 4.905,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 10,
+      "id": "dde2836f-7aba-4639-9d0a-75876a158a95",
+      "query": "How will the regulator use market and regulatory data and intelligence to assess firms regarding customers in financial difficulty?",
+      "latency": 5.338,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 11,
+      "id": "20da23a5-a501-479a-94fb-61e5922f57c3",
+      "query": "When do the rules specified in the policy statement come into force, and what action will be taken regarding the TSG?",
+      "latency": 6.049,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 12,
+      "id": "f657bad8-6afc-4c49-89e0-1ff503721342",
+      "query": "To which customers did the regulator propose extending the scope of the rules and guidance in CONC 7 and MCOB 13?",
+      "latency": 75.48,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 13,
+      "id": "70404258-a26d-4611-acec-a90abccc5504",
+      "query": "What challenges and suggestions did stakeholders raise concerning the proactive identification of customers in emerging payment difficulty?",
+      "latency": 70.391,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 14,
+      "id": "3e38aaed-5af3-4242-979f-9df9be263769",
+      "query": "According to the feedback, what benefit would a more flexible approach to reporting to Credit Reference Agencies (CRAs) provide regarding customer engagement?",
+      "latency": 10.806,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 15,
+      "id": "35a4e7fb-ab7d-42c9-bbde-25710005775c",
+      "query": "What is the finalised trigger point for firms to provide earlier support to customers approaching arrears under the rules and guidance?",
+      "latency": 6.467,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 16,
+      "id": "5288961f-9032-476f-95b1-9418d13e68fe",
+      "query": "Do the proposed rules and guidance require firms to establish new systems or processes to proactively identify customers who may be in financial difficulty?",
+      "latency": 8.876,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 17,
+      "id": "48e798bf-0260-4ae4-9d46-bd54652f0eed",
+      "query": "What action are customers encouraged to take if they experience a change in circumstances and consider their payments to be unaffordable?",
+      "latency": 14.446,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 18,
+      "id": "45233aa7-7df4-4283-b3c1-b24d2fb15f01",
+      "query": "What are lenders expected to do regarding credit reporting pending any changes following the Credit Information Market Study Final Report?",
+      "latency": 11.741,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 19,
+      "id": "ba0d6db5-3665-44cb-ab7f-74b0b958310c",
+      "query": "According to feedback from consumer group representatives and debt advice bodies, why are struggling overdraft customers reluctant to self-identify?",
+      "latency": 10.346,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 20,
+      "id": "f1ebc86d-47b6-4f85-bf2c-3209b01376f0",
+      "query": "What is the official designation for the Government scheme known as 'Breathing Space' affecting customer overdraft facilities?",
+      "latency": 5.229,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 21,
+      "id": "3db3af3e-261f-4321-80cb-2d64ebc560a7",
+      "query": "What actions and tools will the FCA deploy upon identifying serious misconduct in the consumer finance sector?",
+      "latency": 11.664,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 22,
+      "id": "4f3893e2-fb03-427f-9892-b960f5a054f7",
+      "query": "According to existing rules CONC 6.7.2R and CONC 7.2.1R, what obligations do overdraft lenders already have regarding customers experiencing financial difficulty?",
+      "latency": 62.68,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 23,
+      "id": "9f8b8074-b4d9-414f-82ad-4a0544c8c659",
+      "query": "Are firms required by regulatory rules to use specific, prescribed indicators to identify overdraft repeat use?",
+      "latency": 32.402,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 24,
+      "id": "f665017f-8b55-4c29-ac90-4f66e12b3d9b",
+      "query": "What information from PCA activity can firms review alongside borrowing levels to better understand if a customer is facing or likely to face financial difficulties?",
+      "latency": 28.593,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 25,
+      "id": "5b903374-a2d5-41f6-be64-1d3e11b68e8a",
+      "query": "What number is designated in the provided regulatory excerpt?",
+      "latency": 48.476,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 26,
+      "id": "62988169-8214-4ffb-9a08-5aa538861cc9",
+      "query": "Do the rules prescribe specific indicators, triggers, or timing and content for communications with customers experiencing financial difficulties?",
+      "latency": 7.785,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 27,
+      "id": "d2d21c39-fc35-4191-a762-4e6ce77e0c22",
+      "query": "Why were rules in CONC 5D introduced to monitor overdrafts rather than relying on CONC 7 or CONC 6.7.2R?",
+      "latency": 8.472,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 28,
+      "id": "e859b0c4-7818-49ee-9bfd-20625a942786",
+      "query": "What number is specified in the provided regulation text?",
+      "latency": 51.522,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 29,
+      "id": "2f70bed8-e09a-43a6-8f90-0ab62ef97061",
+      "query": "What potential risk did a firm identify regarding offering forbearance to customers too early?",
+      "latency": 71.263,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 30,
+      "id": "2014195e-7063-476a-a538-258c5b0fbe2f",
+      "query": "What concerns did industry respondents raise regarding the proposed changes to communications and the provision of information?",
+      "latency": 19.156,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 31,
+      "id": "dec7dbd8-a077-4b1a-84b7-66c3b164a6f8",
+      "query": "What are firms required to consider and document regarding policies and procedures for customers facing payment shortfall or financial difficulty under MCOB 13?",
+      "latency": 20.532,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 32,
+      "id": "01633308-79a3-4bdc-aee1-f81bf8ae8b0b",
+      "query": "What do the changes to MCOB 13.3.1R require firms to do regarding customers at risk of payment shortfall?",
+      "latency": 13.415,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 33,
+      "id": "82c0844d-c794-4a4b-aac1-2476453c1419",
+      "query": "Under CONC 8.2.2G, which Principles is a firm likely to breach if it recommends an unaffordable debt solution to a customer?",
+      "latency": 13.322,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 34,
+      "id": "17fd8e37-7a8e-4df9-9566-0a4506c5d834",
+      "query": "What specific exemptions from affordability requirements did the FCA introduce under PS23/8 to support the Government's Mortgage Charter, and which contracts are excluded?",
+      "latency": 6.365,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 35,
+      "id": "229ada38-5074-4505-af8c-d30d112f1248",
+      "query": "Does a customer's request for a contractual variation automatically require a firm to determine if the customer is at risk of a payment shortfall, and when must further support be considered?",
+      "latency": 8.933,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 36,
+      "id": "c753b380-8488-46b5-9fbe-2d1b4129cd2a",
+      "query": "Does the requirement apply strictly to information provided directly by the customer, and what other information sources are included?",
+      "latency": 15.338,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 37,
+      "id": "4d20e109-b14d-4ae0-a673-f5a32771b897",
+      "query": "What rule changes did the regulator propose in CP23/13 regarding policies and procedures under CONC 7 and MCOB 13 for customers experiencing payment difficulty?",
+      "latency": 18.654,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 38,
+      "id": "10306fde-47d0-4a2d-8a5d-3d32ebd82d3d",
+      "query": "According to the consultation text, what are examples of circumstances when a review may be appropriate?",
+      "latency": 6.254,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 39,
+      "id": "829f58bc-2b33-4fa0-811f-e1542907f38d",
+      "query": "Why has the regulator decided against defining specific intervals or minimum timeframes for firms to review their policies and procedures?",
+      "latency": 9.328,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 40,
+      "id": "37443a40-ecfa-4030-a6bc-53dbeb51988a",
+      "query": "What preferences and concerns did trade bodies express regarding terminology for customers in vulnerable circumstances in response to the proposals for CONC and MCOB?",
+      "latency": 8.117,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 41,
+      "id": "ded29c84-dfc4-4780-bda7-2376e681e11a",
+      "query": "How does the FCA position FG21/1 vulnerability guidance alongside the Consumer Duty, and what concerns did respondents raise regarding the use of guidance rather than rules in CONC 7.3 forbearance provisions?",
+      "latency": 71.17,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 42,
+      "id": "c87ba005-5eb1-4b98-87a0-aa907d5a1b97",
+      "query": "How has the FCA updated CONC guidance concerning forbearance options and the ongoing monitoring of forbearance arrangements?",
+      "latency": 70.141,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 43,
+      "id": "be628ee6-69c1-4128-ad8b-fb7aeb0bfc1d",
+      "query": "Are mortgage lenders required under MCOB to provide specific forbearance options such as waiving interest or capital whenever a borrower experiences financial difficulty?",
+      "latency": 13.217,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 44,
+      "id": "44af0a43-9be3-4c84-bd1c-9bdd3f299d5c",
+      "query": "How do the regulatory proposals relating to MCOB 13.3.4C and MCOB 13.3.4CG address the forbearance options available to mortgage customers, and what discretion do firms retain when evaluating these options?",
+      "latency": 19.27,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 45,
+      "id": "48708dc9-c848-40ad-9bdc-7756c994915e",
+      "query": "How do consumer credit feedback discussions regarding forbearance options relate to the FCA's finalised rules for mortgages under MCOB 13.3.4AR?",
+      "latency": 14.143,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 46,
+      "id": "f3da0984-27fc-4887-a52e-ebadf81346b2",
+      "query": "What is the FCA's position regarding the publication of available forbearance options on firms' websites for consumer credit and overdraft customers, and how should firms approach communication with these customers?",
+      "latency": 11.374,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 47,
+      "id": "d60380ce-89f6-4562-b7f6-b28be0846afc",
+      "query": "How do the regulator's stance and stakeholder feedback on publishing forbearance options on firms' websites differ between overdrafts and mortgages?",
+      "latency": 71.175,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 48,
+      "id": "a97aa5af-62bc-4109-9ba0-ba29f06aaae7",
+      "query": "According to regulatory research, why do customers generally prioritise mortgage payments, and what consequences do they understand may result from missing a payment?",
+      "latency": 7.571,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 49,
+      "id": "c9439f10-5ff2-491a-8f62-caa260d0fc6d",
+      "query": "What feedback and concerns were raised by respondents regarding the FCA's proposed rules on customer communication and signposting for money guidance and debt advice?",
+      "latency": 8.719,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 50,
+      "id": "969e2753-5809-4cc4-9fd5-fe1127dd5397",
+      "query": "Under the finalised guidance, in what circumstances should firms communicate the benefits of debt advice and money guidance to customers, and does this obligation require firms to provide debt counselling?",
+      "latency": 7.705,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 51,
+      "id": "3c5a53eb-c29a-4d91-aec3-d0e567be1075",
+      "query": "How do FCA regulatory provisions and consultation feedback across consumer credit (CONC) and mortgages (MCOB) address firms engaging with customers and signposting or referring them to debt advice?",
+      "latency": 24.271,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 52,
+      "id": "1bd2a205-a75a-4643-b387-96ff8c73cf74",
+      "query": "How did the regulator respond to feedback regarding the requirement in MCOB 13.3.2AR(-1)(b) to effectively communicate the benefits of money guidance and debt advice, particularly regarding alignment with the Consumer Duty and permissions?",
+      "latency": 16.088,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 53,
+      "id": "58370b28-4d76-4f2e-bb61-cd376b5f3523",
+      "query": "What information did the FCA propose firms should provide to credit customers prior to granting forbearance, and what key feedback did respondents raise regarding credit file reporting and customer options?",
+      "latency": 57.971,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 54,
+      "id": "e100dc5b-c008-4d79-ad42-356af5f5cb1b",
+      "query": "How did the regulator respond in CONC rules to consultation feedback regarding the transposition of Tailored Support Guidance (TSG) on communicating customer options and explaining credit file impacts?",
+      "latency": 20.378,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 55,
+      "id": "04bb7742-d755-40c5-a37e-06baae2769ab",
+      "query": "How do the regulatory passages address customer communications regarding debt and forbearance options, and how should individual circumstances be factored into the support provided?",
+      "latency": 21.825,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 56,
+      "id": "e7d41089-f518-48cf-9712-0fc40cbb59eb",
+      "query": "When addressing customers in financial difficulty, what expectations and feedback apply to firms regarding the removal of overdrafts, customer engagement, and allowing time to consider financial arrangements?",
+      "latency": 18.853,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 57,
+      "id": "fd1759c7-f68a-4992-93ff-b118e11d5ba3",
+      "query": "How has the regulator responded to industry feedback concerning mortgage customer disclosures and consideration periods, and what concerns were raised regarding disclosure methods?",
+      "latency": 81.515,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 58,
+      "id": "4946d2d4-6ba8-4581-bafa-c9dba62d902d",
+      "query": "How do the regulatory updates across MCOB and CONC adjust the scope and timing of support for customers who are vulnerable or experiencing financial difficulties?",
+      "latency": 15.93,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 59,
+      "id": "f6b8347b-7dd5-4556-b9fa-ce4c5b1af0e8",
+      "query": "What are the regulatory objectives behind the proposed credit forbearance enhancements, and to which categories of SME borrowers do these protections extend under CONC 7?",
+      "latency": 8.927,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 60,
+      "id": "68611307-540a-42f8-ba41-ea283f148e27",
+      "query": "Under the FCA's guidance on escalating balances, what actions must a firm take regarding interest and charges when a customer maintains a sustainable repayment arrangement, and how does this requirement adapt to changing customer circumstances?",
+      "latency": 14.666,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 61,
+      "id": "f22f5afb-eae7-4cde-905d-e2fe633a2e3e",
+      "query": "What feedback and requests for clarification did respondents raise regarding the guidance allowing firms to adjust or reduce the waiver of interest and charges if a customer's financial circumstances improve?",
+      "latency": 11.881,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 62,
+      "id": "d7663d76-583e-4a89-a2d7-2a62dc8eac9b",
+      "query": "How has the regulator amended its proposed rule on escalating balances for customers in repayment arrangements, and what rationale was provided for this change?",
+      "latency": 14.756,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 63,
+      "id": "bff027a3-b869-4d54-8c2a-db9ceee8c41b",
+      "query": "How should firms approach adjusting payment amounts and interest or fee waivers when a customer's financial circumstances improve during a repayment arrangement?",
+      "latency": 15.791,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 64,
+      "id": "bb0f0d5a-85e0-446e-9c9c-f888d15fc4b9",
+      "query": "Following consultation feedback on fees and charges for customers in payment difficulties, how did the FCA amend its proposed guidance under CONC 7.7.6G and align enforcement with the Consumer Duty?",
+      "latency": 12.401,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 65,
+      "id": "469bafba-ae12-411b-9a2e-2ac03057b3e4",
+      "query": "What feedback did respondents provide regarding the proposed requirement for sustainable repayment arrangements and the guidance on priority debts and essential living expenses?",
+      "latency": 25.508,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 66,
+      "id": "c94eadd7-b4ed-45f5-9fa6-9374454be234",
+      "query": "What feedback and concerns did respondents raise regarding lengthy repayment terms and third-party debt solutions such as DMPs and IVAs in this section of the consultation feedback?",
+      "latency": 14.65,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 67,
+      "id": "65b591ca-c4fb-4f1c-a85c-27c671908abd",
+      "query": "Under CONC guidance and rules on forbearance, how does the FCA classify token payments relative to sustainable repayment arrangements, and when might a sustainability assessment be omitted?",
+      "latency": 52.024,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 68,
+      "id": "7f406e8b-137f-4513-8843-a2eb9e5ad8aa",
+      "query": "How did the FCA modify and clarify its proposed guidance on reviewing forbearance measures in response to consultation feedback about review frequency?",
+      "latency": 14.858,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 69,
+      "id": "856f5611-5583-4a1b-bbfb-5da4c4e99d50",
+      "query": "What industry concerns and alternative proposals were raised regarding the requirement for firms to provide customers with a record of their completed income and expenditure assessments?",
+      "latency": 7.986,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 70,
+      "id": "d93d7558-eb10-4187-b8bd-4bb6217b35ec",
+      "query": "What are the regulator's finalized rules and guidance regarding how firms conduct income and expenditure assessments and share or re-use those assessment records?",
+      "latency": 16.392,
+      "escalated": false,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 71,
+      "id": "c78ccf94-8294-487d-b2d9-38266ad2f177",
+      "query": "What are the specific capital adequacy requirements for UK spaceport insurance brokers under PRA rules?",
+      "latency": 60.489,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 72,
+      "id": "2ad18c03-71de-45a0-a463-b55fb7e465b0",
+      "query": "What is the maximum statutory payout for peer-to-peer art lending defaults under CONC 14?",
+      "latency": 59.944,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 73,
+      "id": "b868aa1e-2bb7-4a5b-86d6-2fcff0752ab5",
+      "query": "How should firms calculate liquid assets for Scottish forestry syndicates under FCA guidance?",
+      "latency": 61.005,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 74,
+      "id": "574f662c-62a7-4620-9740-65edb8c934a1",
+      "query": "What are the reporting deadlines for Gibraltar-based captive reinsurers writing UK consumer credit?",
+      "latency": 76.214,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 75,
+      "id": "e59134c4-5ed8-4e64-a596-544d408fbc05",
+      "query": "What are the exact interest rate cap formulas for post-secondary educational equipment leases?",
+      "latency": 76.968,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 76,
+      "id": "db181942-4517-41b6-8295-d6c7f81de1b8",
+      "query": "Which exemptions apply to algorithmic trading of agricultural emissions allowances under MiFID II UK?",
+      "latency": 59.832,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 77,
+      "id": "4336d804-2ac3-42cd-98e6-d6d34c93de6f",
+      "query": "What are the audit committee requirements for local credit unions with fewer than 50 members?",
+      "latency": 60.893,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 78,
+      "id": "18d6b730-ad20-43d7-b951-1c1e7f0dbe04",
+      "query": "What is the approved procedure for winding down a UK digital tokenized real estate SPV?",
+      "latency": 57.655,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 79,
+      "id": "4e6481c3-a238-4128-be7f-f0a3c5800e19",
+      "query": "How are overseas sovereign wealth funds taxed under consumer debt restructuring directives?",
+      "latency": 57.534,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 80,
+      "id": "d223e4dd-1b47-4c6c-8522-64602ffcbad4",
+      "query": "What are the specific reserve requirements for UK Islamic pawn-broking arrangements?",
+      "latency": 57.695,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 81,
+      "id": "f934458d-4645-4b27-9d34-e34022dae779",
+      "query": "What is the statutory cooling-off period for commercial aircraft wet leases under FCA handbook rules?",
+      "latency": 60.049,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 82,
+      "id": "8f2bfedf-40ed-4663-9707-cfcfa7150bd4",
+      "query": "Which reporting templates are mandated for micro-entity peer-to-peer solar panel lending platforms?",
+      "latency": 55.288,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 83,
+      "id": "94dbbbfe-9004-45e4-98fe-d49f80909325",
+      "query": "What are the prudential limits on non-EEA reinsurance retrocession for consumer warranties?",
+      "latency": 62.563,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 84,
+      "id": "2a851347-ab4a-4a31-bdf9-461e3af10341",
+      "query": "How do insolvency practitioners calculate preferential claims for consumer hire-purchase agreements under 2026 rules?",
+      "latency": 75.872,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 85,
+      "id": "bbb66b0b-c92a-4314-8468-6dc42529fdc3",
+      "query": "What are the mandatory AML verification steps for offshore precious-metal-backed credit cards?",
+      "latency": 78.537,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 86,
+      "id": "afc3db30-e9df-41e6-a202-c38ff29ac0b2",
+      "query": "Can you write a Python function to compute Fibonacci numbers using recursion?",
+      "latency": 46.025,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 87,
+      "id": "ce1bd8bf-f6d7-44f7-8383-e8b6423882e8",
+      "query": "How do I prepare a classic French beef bourguignon?",
+      "latency": 46.34,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 88,
+      "id": "c2341eca-2a06-4b8a-89ab-3b6342f07681",
+      "query": "What are the standard symptoms and medical treatments for acute appendicitis?",
+      "latency": 45.567,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 89,
+      "id": "a23d2e4e-4054-4c29-97a0-bc1dd53748ae",
+      "query": "Who won the UEFA Champions League final in 2024?",
+      "latency": 51.906,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 90,
+      "id": "f97dc605-6975-46c4-9368-3c8ce2c68a1d",
+      "query": "How do I calculate personal income tax deductions on IRS Form 1040 in California?",
+      "latency": 49.891,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 91,
+      "id": "d2901986-7afe-4af4-899b-6d9834ab5592",
+      "query": "Can you help debug my React useEffect hook dependency cycle?",
+      "latency": 45.705,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 92,
+      "id": "1ca05086-5e92-43cd-8dea-96cffecf35de",
+      "query": "What is the optimal tire pressure for a mountain bike on wet gravel?",
+      "latency": 42.594,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 93,
+      "id": "386217be-1ce1-4ef2-97fc-aa5430f51300",
+      "query": "Write a creative short story about an astronaut marooned on Mars.",
+      "latency": 48.013,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 94,
+      "id": "fc4dc2b9-508b-47c0-a3c3-16d5acb9cdcd",
+      "query": "How do I configure an Nginx reverse proxy with SSL termination on Ubuntu 24.04?",
+      "latency": 55.514,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 95,
+      "id": "a8345dfd-961a-4767-909c-774bab638786",
+      "query": "What are the best tourist attractions to visit in Kyoto during autumn?",
+      "latency": 63.298,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 96,
+      "id": "1d50e5f8-7866-4e17-90b8-228618a0710e",
+      "query": "What is the recommended dosage of ibuprofen for adult dental pain?",
+      "latency": 50.54,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 97,
+      "id": "067af570-2977-4451-90a2-1a2c6daf8b3f",
+      "query": "How does quantum error correction work using surface codes?",
+      "latency": 77.065,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 98,
+      "id": "9ef2142c-e43b-45c1-b5de-a62a51b5dc7a",
+      "query": "Give me a five-day strength training split for beginner powerlifting.",
+      "latency": 43.987,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 99,
+      "id": "a9ddce71-464e-4bb3-829e-57933d450b9c",
+      "query": "How do I change the oil and filter on a 2018 Volkswagen Golf?",
+      "latency": 49.213,
+      "escalated": true,
+      "unsupported_claims": 0
+    },
+    {
+      "task_num": 100,
+      "id": "0f37e73e-c8ee-41c9-8cec-05aaec2865a1",
+      "query": "What were the primary socio-economic causes of the French Revolution in 1789?",
+      "latency": 63.868,
+      "escalated": true,
+      "unsupported_claims": 0
+    }
+  ]
+}
