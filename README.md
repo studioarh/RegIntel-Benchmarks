@@ -1,6 +1,6 @@
 # RegIntel: Architecture, 17 ADRs & 100-Task UK Statutory Graph-RAG Benchmark
 
-[![CI](https://github.com/studioarh/regintel-benchmarks/actions/workflows/ci.yml/badge.svg)](https://github.com/studioarh/regintel-benchmarks/actions/workflows/ci.yml)
+[![CI Quality Gates](https://github.com/studioarh/regintel-benchmarks/actions/workflows/ci.yml/badge.svg)](https://github.com/studioarh/regintel-benchmarks/actions/workflows/ci.yml)
 ![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)
 ![PostgreSQL pgvector](https://img.shields.io/badge/PostgreSQL-pgvector%20pg16-336791.svg)
 ![Code Style: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)
